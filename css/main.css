@@ -7,6 +7,7 @@
 
 body{
     width: 800px;
+    margin: auto;
 }
 
 main, footer{
@@ -40,6 +41,7 @@ p{
 
 li{
     font-size: 15px;
+    margin-left: 20px;
 }
 
 /* classi e id----------------- */
