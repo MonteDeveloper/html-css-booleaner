@@ -9,7 +9,7 @@ body{
     width: 800px;
 }
 
-main{
+main, footer{
     margin: 5px;
 }
 
@@ -38,6 +38,10 @@ p{
     font-size: 15px;
 }
 
+li{
+    font-size: 15px;
+}
+
 /* classi e id----------------- */
 #logo{
     height: 45%;
@@ -57,6 +61,28 @@ p{
 #imgRef{
     font-size: 12px;
     margin-bottom: 10px;
+}
+
+.titleImage{
+    color: white;
+}
+
+#monitorImg{
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin-top: 8px;
+    padding: 5px;
+}
+
+#graphImg{
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    width: 180px;
+    height: 120px;
+    margin-top: 8px;
+    padding: 5px;
 }
 
 /* tabella---------------------- */
@@ -79,3 +105,6 @@ td{
 .oddRow{
     background-color: #b1e5f2;
 }
+
+
+
