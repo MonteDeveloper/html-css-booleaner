@@ -1,3 +1,18 @@
+/* CSS Reset ------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 800px;
+}
+
+main{
+    margin: 5px;
+}
+
 header{
     background-image: url('../img/pattern.png');
     background-color: #4ea0ff;
@@ -6,8 +21,61 @@ header{
     background-size: 270px;
 }
 
+/* tag html------------------- */
+h1{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: grey;
+    font-size: 14px;
+}
+
+p{
+    font-size: 15px;
+}
+
+/* classi e id----------------- */
 #logo{
     height: 45%;
     margin-top: 30px;
     margin-left: 5px;
+}
+
+#aquaColor{
+    color: #4ea0ff;
+}
+
+.timImg{
+    height: 270px;
+    margin-top: 12px;
+}
+
+#imgRef{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+/* tabella---------------------- */
+table{
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 13px;
+    width: 100%;
+}
+
+thead{
+    background-color: #4ea0ff;
+    color: white;
+}
+
+td{
+    width: 190px;
+}
+
+.oddRow{
+    background-color: #b1e5f2;
 }
